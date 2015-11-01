@@ -13,7 +13,7 @@ module ActiveMerchant
           add_web_params(xml, options)
         end
       end
-      alias_method :setup_purchase, :do_web_payment
+      alias_method :purchase, :do_web_payment
       
       # :wallet_id [String] alpha-numeric 50 chars max
       # :locale [String, Symbol] ISO 639-1 locale code
